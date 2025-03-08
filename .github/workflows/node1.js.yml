@@ -37,4 +37,5 @@ jobs:
     
     - run: git config --global user.name "Dhilipan31"
     - run: git config --global user.email "dhilipanpress@gmail.com"
+    - run: git remote set-url origin git@github.com:Dhilipan31/test_multiDev.git
     - run: npm run deploy
