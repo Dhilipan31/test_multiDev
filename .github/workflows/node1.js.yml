@@ -34,4 +34,8 @@ jobs:
       run: npm install
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm run deploy 
+    
+    - run:
+        git config --global user.name "Dhilipan31"
+        git config --global user.email "dhilipanpress@gmail.com"
+        npm run deploy
